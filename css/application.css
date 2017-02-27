@@ -1,0 +1,38 @@
+body {
+  background: lightgrey;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  width: 80%;
+  background: white;
+  margin: 0 auto;
+}
+
+video {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+#transcript {
+  padding: 2%;
+  line-height: 1.5;
+  font-size: 0.85em;
+}
+
+@media (min-width: 768px) {
+  body {
+    background: none;
+  }
+
+  .container {
+    width: 70%;
+  }
+
+  #transcript {
+    font-size: 1.1em;
+    padding: 1% 0;
+    line-height: 2.0;
+  }
+}
